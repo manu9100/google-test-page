@@ -1,0 +1,157 @@
+body {
+
+    background-color: #202124;
+    font-size: 14px
+
+
+
+
+
+}
+
+.linkContainer {
+    
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    
+}
+
+.chiSiamo{
+
+    margin: 15px 0 0 40px;
+}
+
+.store{
+
+    margin: -17px 0 0 135px;
+}
+
+.gmail{
+
+    margin: 10px -100px 0px 791px;
+}
+
+.immagini{
+
+    margin: 10px 0px 0px 117px
+}
+
+
+.img {
+    width: 20%;
+    height: 20%;
+    margin: 50px auto;
+    display: block;
+
+}
+
+.link {
+    color: #bdc1c6;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px
+    
+
+
+}
+
+.link:hover {
+    color: beige;
+
+}
+
+.input {
+
+    display: block;
+    width: 80%;
+    height: 30px;
+    background-color: #202124;
+    border: none;
+    margin: -33px 60px;
+    outline: none;
+    color: white
+
+}
+
+.inputContainer {
+    border: 1px solid #5f6368;
+    border-radius: 20px;
+    width: 600px;
+    height: 40px;
+    margin: 50px auto 20px;
+
+}
+
+
+.flexContainer {
+    text-align: center;
+
+    ;
+}
+
+.accedi{
+
+margin: -10px;
+
+
+}
+
+
+button {
+
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 7px;
+    padding: 10px;
+    color: #e8eaed;
+    margin: 11px 4px;
+
+
+}
+
+button:hover {
+
+    border: 1px solid #e8eaed;
+
+}
+
+.marginDiv {
+
+    margin: 0 0 -30px;
+
+}
+
+.lenteDimensione {
+
+    width: 26px;
+    padding: 7px 0 0 20px;
+    color: #9aa0a6;
+
+}
+ .lenteSetting{
+    color: #9aa0a6;
+    fill: currentColor;
+    width: 26px;
+    padding: 7px 0 0 20px;
+ }
+
+ .botton3{
+
+    background: #1a73e8;
+    padding: 9px 23px;
+ }
+ .accedi{
+
+    margin: -12px 7px;
+ }
+  
+ .grigliaGoogle{
+
+    color:#fff ;
+    opacity: 0.8;
+    fill: currentColor;
+    height: 24px;
+    width: 24px;
+    margin: 7px;
+ }
