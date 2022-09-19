@@ -2,8 +2,15 @@ body {
 
     background-color: #202124;
     font-size: 14px;
-    margin: 12px auto;
+    margin: 0;
+    height: 100vh;
+}
+
+main{
+
     display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .linkContainer {
@@ -38,6 +45,11 @@ body {
 
     margin: 10px 0px 0px 117px;
 
+}
+
+.searchContainer{
+
+    flex-grow: 1;
 }
 
 
@@ -295,4 +307,3 @@ footer a{
     margin: 15px;
   }
 
-  .divca
