@@ -1,47 +1,50 @@
 body {
 
     background-color: #202124;
-    font-size: 14px
-
-
-
-
-
+    font-size: 14px;
+    margin: 12px auto;
+    display: flex;
 }
 
 .linkContainer {
-    
+
     display: flex;
     justify-content: space-between;
     height: 100px;
-    
+    display: flex;
+
 }
 
-.chiSiamo{
+.chiSiamo {
 
-    margin: 15px 0 0 40px;
+    margin: 10px;
+
 }
 
-.store{
+.store {
 
-    margin: -17px 0 0 135px;
+    margin: 10px;
+
+
 }
 
-.gmail{
+.gmail {
 
     margin: 10px -100px 0px 791px;
+
 }
 
-.immagini{
+.immagini {
 
-    margin: 10px 0px 0px 117px
+    margin: 10px 0px 0px 117px;
+
 }
 
 
 .img {
     width: 20%;
     height: 20%;
-    margin: 50px auto;
+    margin: 0 auto;
     display: block;
 
 }
@@ -51,10 +54,17 @@ body {
     text-decoration: none;
     font-family: arial, sans-serif;
     font-size: 14px
-    
-
-
 }
+
+.link1 {
+
+    color: white;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 13px
+}
+
+
 
 .link:hover {
     color: beige;
@@ -68,10 +78,9 @@ body {
     height: 30px;
     background-color: #202124;
     border: none;
-    margin: -33px 60px;
+    margin: 4px 10px;
     outline: none;
     color: white
-
 }
 
 .inputContainer {
@@ -80,6 +89,7 @@ body {
     width: 600px;
     height: 40px;
     margin: 50px auto 20px;
+    display: flex;
 
 }
 
@@ -90,9 +100,9 @@ body {
     ;
 }
 
-.accedi{
+.accedi {
 
-margin: -10px;
+    margin: -10px;
 
 
 }
@@ -118,7 +128,7 @@ button:hover {
 
 .marginDiv {
 
-    margin: 0 0 -30px;
+    margin: -40px 0 -30px;
 
 }
 
@@ -129,29 +139,160 @@ button:hover {
     color: #9aa0a6;
 
 }
- .lenteSetting{
+
+.lenteSetting {
     color: #9aa0a6;
     fill: currentColor;
     width: 26px;
     padding: 7px 0 0 20px;
- }
+}
 
- .botton3{
+.botton3 {
 
     background: #1a73e8;
     padding: 9px 23px;
- }
- .accedi{
+}
+
+.accedi {
 
     margin: -12px 7px;
- }
-  
- .grigliaGoogle{
+}
 
-    color:#fff ;
+.grigliaGoogle {
+
+    color: #fff;
     opacity: 0.8;
     fill: currentColor;
     height: 24px;
     width: 24px;
-    margin: 7px;
- }
+    margin: 7px 7px 0px 18px;
+}
+
+.microfonoTest {
+
+    height: 24px;
+    width: 24px;
+    margin: 6px;
+}
+
+a {
+
+    white-space: nowrap;
+}
+
+.fineContenuto {
+
+    display: flex;
+}
+
+.linksContainer {
+
+    display: flex;
+    margin: 0px 0px -50px;
+
+}
+
+
+footer{
+
+    background-color: #171717
+    
+}
+
+footer a{
+
+    color: #9aa0a6;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+}
+
+
+.divItalia {
+
+    display: block;
+    padding: 15px 30px;
+    border-bottom: 1px solid #3c4043;
+    font-size: 15px;
+    color: #9aa0a6;
+
+
+}
+
+.itsetting {
+
+    color: #9aa0a6;
+    font-size: 17px;
+
+
+}
+
+
+.primaColonna {
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+    border-bottom: 1px solid #3c4043;
+    display: block;
+}
+
+
+.italia {
+
+    color: #9aa0a6;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+
+}
+
+.pubblicità {
+
+    display: block;
+    white-space: nowrap;
+}
+
+.secondaColonna{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.divPrimo,
+.divSecondo,
+.divTerzo{
+
+    display: flex;
+
+  }
+
+
+  .divCarbon{
+
+    display: flex;
+    margin: 15px;
+  }
+  
+  .foglia{
+    width: 12.5px;
+    height: 14px;
+    margin-right: 8px;
+    
+  }
+
+  .divPrimo > div{
+   margin: 15px;
+ 
+  }
+
+  .divSecondo > div{
+
+    margin: 15px;
+  }
+
+  .divTerzo > div{
+
+    margin: 15px;
+  }
+
+  .divca
